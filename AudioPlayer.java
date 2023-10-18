@@ -23,7 +23,7 @@ public class AudioPlayer {
 		
 		while(!r.equals("Q")) {
 			System.out.println("P = Play, S = Stop, R = Reset, Q = Quit");
-			System.out.println("Enter a Character: ");
+			System.out.println("Enter a character: ");
 			
 			r = scanner.next();
 			r = r.toUpperCase();
@@ -35,7 +35,7 @@ public class AudioPlayer {
 			break; 
 			case ("R"): c.setMicrosecondPosition(0);
 			break;
-			default: System.out.println("Not a valid Response Lil Bro Do it Again: ");
+			default: System.out.println("Not a valid response do it again: ");
 			
 			}
 		}
